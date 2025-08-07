@@ -7,10 +7,8 @@ import ArrowIcon from "@/components/icon/ArrowIcon";
 export default function Home() {
   return (
     <div className="min-h-screen bg-black text-white px-4 md:px-10 lg:px-20 py-10 space-y-20">
-      {/* Hero Slider */}
       <AutoSlider />
 
-      {/* CR-Fandom Intro */}
       <div className="text-center space-y-10">
         <h1 className="text-5xl md:text-7xl font-bold transition hover:text-purple-500 hover:animate-pulse">
           CR-Fandom
@@ -27,7 +25,6 @@ export default function Home() {
         </p>
       </div>
 
-      {/* Official Site Link */}
       <div className="bg-white py-10 text-black text-center">
         <div className="flex items-center justify-center gap-4 text-2xl md:text-4xl font-bold transition hover:text-purple-500 hover:animate-pulse">
           <ArrowIcon direction="left" />
@@ -38,7 +35,6 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Card List Section */}
       <div className="flex flex-col md:flex-row items-center gap-10">
         <AutoSliderL />
         <div className="max-w-3xl text-justify text-lg md:text-xl lg:text-2xl font-bold leading-relaxed">
@@ -55,7 +51,6 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Link to Card List */}
       <div className="bg-white py-10 text-black text-center">
         <div className="flex items-center justify-center gap-4 text-2xl md:text-4xl font-bold transition hover:text-purple-500 hover:animate-pulse">
           <ArrowIcon direction="left" />
@@ -64,7 +59,6 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Community Section */}
       <div className="flex flex-col-reverse md:flex-row items-center gap-10">
         <div className="max-w-3xl text-justify text-lg md:text-xl lg:text-2xl font-bold leading-relaxed">
           <p>
